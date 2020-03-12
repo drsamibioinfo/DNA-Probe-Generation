@@ -25,3 +25,31 @@ optional arguments:
 
 ```
 
+###Example
+
+Extracting the best probe to use for performing hybridization probing to SARS-COV 2 Protease Gene would be like the following:
+
+- sars2.protease.fa file is SARS-COV 2 protease protein sequence in fasta file, we are going to use it to generate the best top 3 probes to use for phishing recombinant colonies that contain that particular protease gene
+
+`probing --fasta ./sars2.protease.fa --size 12 --top 3`
+
+```
+        AA Sequence : MHHM
+        DNA Sequence : ATGCATCATATG
+        Hybridization Affinity : 83.33%
+        Variable bases # : 2
+        
+
+        AA Sequence : KMAF
+        DNA Sequence : AAGATGGCTTTT
+        Hybridization Affinity : 75.00%
+        Variable bases # : 3
+        
+
+        AA Sequence : MAFP
+        DNA Sequence : ATGGCTTTTCCT
+        Hybridization Affinity : 75.00%
+        Variable bases # : 3
+```
+
+Thank you.
