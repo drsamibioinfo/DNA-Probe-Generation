@@ -25,7 +25,7 @@ optional arguments:
 
 ```
 
-###Example
+### Example
 
 Extracting the best probe to use for performing hybridization probing to SARS-COV 2 Protease Gene would be like the following:
 
